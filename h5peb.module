@@ -1,0 +1,14 @@
+<?php
+
+/**
+ * @file
+ * Various hook implementations for the h5peb module.
+ */
+
+/**
+ * Implements hook_entity_browser_table_fields_alter().
+ */
+function h5peb_entity_browser_table_fields_alter(&$fields, $context) {
+  \Drupal::service('h5peb.entity_browser_table_fields')
+    ->alterEntityBrowserTableFields($fields, $context);
+}
