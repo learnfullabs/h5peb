@@ -1,0 +1,19 @@
+{
+  "name": "learnfullabs/h5peb",
+  "description": "Integration for H5P and Entity Browser",
+  "type": "drupal-custom-module",
+  "homepage": "https://github.com/learnfullabs/h5peb",
+  "authors": [
+    {
+      "name": "Yasin Dahi (ymdahi)",
+      "homepage": "https://github.com/ymdahi",
+      "role": "Maintainer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/learnfullabs/h5peb",
+    "source": "https://github.com/learnfullabs/h5peb"
+  },
+  "license": "MIT",
+  "minimum-stability": "dev"
+}
