@@ -38,11 +38,11 @@ class EntityBrowserTableFields {
         'label' => t('Library'),
         'weight' => 0,
       ];
-      $fields['field_subject'] = [
-        'type' => 'field',
-        'label' => t('Subject'),
-        'weight' => 0,
-      ];
+      // $fields['field_subject'] = [
+      //   'type' => 'field',
+      //   'label' => t('Subject'),
+      //   'weight' => 0,
+      // ];
     }
   }
 
