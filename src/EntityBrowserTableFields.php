@@ -28,21 +28,11 @@ class EntityBrowserTableFields {
         'label' => t('Title'),
         'weight' => 0,
       ];
-      $fields['license'] = [
+      $fields['type'] = [
         'type' => 'field',
-        'label' => t('License'),
+        'label' => t('Type'),
         'weight' => 0,
       ];
-      $fields['library'] = [
-        'type' => 'field',
-        'label' => t('Library'),
-        'weight' => 0,
-      ];
-      // $fields['field_subject'] = [
-      //   'type' => 'field',
-      //   'label' => t('Subject'),
-      //   'weight' => 0,
-      // ];
     }
   }
 
@@ -56,7 +46,7 @@ class EntityBrowserTableFields {
    *   The render array for H5P entities.
    */
   public function stringToH5pRenderArray(string $string): array {
-    $string = str_replace('H5P.', '', $string);
+    $string = str_replace('H5P.', 'H5P ', $string);
     $renderArray = [];
 
     $renderArray['#theme'] = 'field';
